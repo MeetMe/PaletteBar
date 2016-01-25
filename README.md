@@ -16,8 +16,9 @@ Here's PaletteBar in the [MeetMe app's](https://play.google.com/store/apps/detai
 
 and in a simple drawing app:
 
-![ScreenShot](/screenshots/simpleDrawUse.gif)
-Pardon the grainyness and mouse cursor.
+![ScreenShot](/screenshots/simpleDrawUse.gif)  
+
+Pardon the gifs' grainyness and mouse cursor. And the misspelling of "color", depending on your geography.
 
 ## License
 
