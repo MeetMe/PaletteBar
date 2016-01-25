@@ -1,14 +1,14 @@
-PaletteBar
+PaletteBar for Android
 ==========
 
-A color picker bar with a horizontal rainbow and vertically changing hue values. The border of the picker changes to match the selection, and can be changed via <b>setColorMarginPx()</b>.
+A color picker bar with a horizontal rainbow and vertically changing hue values, implemented as a custom View. The border of the picker changes to match the selection, and can be changed via <b>setColorMarginPx()</b>.
 The bar will scale uniformly. Make sure to register for color selection via <b>setListener(PaletteBarListener listener)</b>. Note that this callback will be made with the starting color, black, as soon as the listener is registered.
 
 In this screenshot, a light green has been selected:
 ![ScreenShot](/screenshots/paletteBarScreenshot.png)
 
 
-Just add the single class file, [PaletteBar.java](PaletteBar.java), to your project.
+Just add the single class file, [PaletteBar.java](PaletteBar.java), to your Android project.
 
 Here's PaletteBar in the [MeetMe app's](https://play.google.com/store/apps/details?id=com.myyearbook.m) chat photo editor:
 
@@ -23,7 +23,7 @@ and in a simple drawing app:
 
  Apache 2.0
 
-    Copyright 2013 MeetMe, Inc.
+    Copyright 2016 MeetMe, Inc.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
