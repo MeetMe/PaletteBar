@@ -8,7 +8,7 @@ In this screenshot, a light green has been selected:
 ![ScreenShot](/screenshots/paletteBarScreenshot.png)
 
 
-Just add the single class file, PaletteBar.java, to your project.
+Just add the single class file, [PaletteBar.java](PaletteBar.java), to your project.
 
 Here's PaletteBar in the [MeetMe app's](https://play.google.com/store/apps/details?id=com.myyearbook.m) chat photo editor:
 
