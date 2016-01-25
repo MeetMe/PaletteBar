@@ -1,8 +1,8 @@
 PaletteBar for Android
 ==========
 
-A color picker bar with a horizontal rainbow and vertically changing hue values, implemented as a custom View. Touch and optionally drag to change colors, then release to select, as shown in the gifs below. The border of the picker changes to match the selection, and its width can be changed via <b>setColorMarginPx()</b>.
-The bar will scale uniformly. Make sure to register for color selection via <b>setListener(PaletteBarListener listener)</b>. Note that the <code>onColorSelected(int color)</code> callback will be made with the starting color, black, as soon as the listener is registered.
+A color picker bar with a horizontal rainbow and vertically changing hue values, implemented as a custom View. Touch and optionally drag to change colors, then release to select, as shown in the gifs below. The border of the picker changes to match the selection, and its width can be changed via <code>setColorMarginPx()</code>.
+The bar will scale uniformly. Make sure to register for color selection via <code>setListener(PaletteBarListener listener)</code>. Note that the <code>onColorSelected(int color)</code> callback will be made with the starting color, black, as soon as the listener is registered.
 
 In this screenshot, a light green has been selected:
 ![ScreenShot](/screenshots/paletteBarScreenshot.png)
