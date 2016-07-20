@@ -174,13 +174,12 @@ public class PaletteBar extends RelativeLayout {
         mCurrentColor = savedState.currentColor;
         setBackgroundColor(mCurrentColor);
     }
-
+    
     @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
-        mPaletteWidth = getWidth() - (mColorMargin * 2);
-        mPaletteHeight = getHeight() - (mColorMargin * 2);
+    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        super.onSizeChanged(w, h, oldw, oldh);
+        mPaletteWidth = w - (mColorMargin * 2);
+        mPaletteHeight = h - (mColorMargin * 2);
     }
 
     /** Touch listener that adjusts coords for positioning the selector and determining the color */
