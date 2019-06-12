@@ -19,6 +19,27 @@ and in a simple drawing app:
 
 Pardon the gifs' grainyness and mouse cursor. And the misspelling of "color", depending on your geography.
 
+## Usage
+
+```xml
+ <com.meetme.android.palettebar.PaletteBar
+        android:id="@+id/paletteBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+```
+
+You then attach a `PaletteBarListener` to be notified of color changes
+
+```java
+PaletteBar paletteBar = findViewById(R.id.paletteBar);
+paletteBar.setListener(new PaletteBarListener() {
+    @Override
+    public void onColorSelected(int colorInt) {
+        // Use the selected color
+    }
+});
+```
+
 ## License
 
  Apache 2.0
